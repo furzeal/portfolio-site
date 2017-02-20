@@ -63,56 +63,56 @@ ul {
 /* Roboto */
 @font-face {
   font-family: 'robotobold';
-  src: url("/public/assets/fonts/roboto-bold-webfont.woff") format("woff"), url("/public/assets/fonts/roboto-bold-webfont.svg#robotobold") format("svg");
+  src: url("/assets/fonts/roboto-bold-webfont.woff") format("woff"), url("/assets/fonts/roboto-bold-webfont.svg#robotobold") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'robotobold_italic';
-  src: url("/public/assets/fonts/roboto-bolditalic-webfont.woff") format("woff"), url("/public/assets/fonts/roboto-bolditalic-webfont.svg#robotobold_italic") format("svg");
+  src: url("/assets/fonts/roboto-bolditalic-webfont.woff") format("woff"), url("/assets/fonts/roboto-bolditalic-webfont.svg#robotobold_italic") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'robotoitalic';
-  src: url("/public/assets/fonts/roboto-italic-webfont.woff") format("woff"), url("/public/assets/fonts/roboto-italic-webfont.svg#robotoitalic") format("svg");
+  src: url("/assets/fonts/roboto-italic-webfont.woff") format("woff"), url("/assets/fonts/roboto-italic-webfont.svg#robotoitalic") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'robotolight';
-  src: url("/public/assets/fonts/roboto-light-webfont.woff") format("woff"), url("/public/assets/fonts/roboto-light-webfont.svg#robotolight") format("svg");
+  src: url("/assets/fonts/roboto-light-webfont.woff") format("woff"), url("/assets/fonts/roboto-light-webfont.svg#robotolight") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'robotolight_italic';
-  src: url("/public/assets/fonts/roboto-lightitalic-webfont.woff") format("woff"), url("/public/assets/fonts/roboto-lightitalic-webfont.svg#robotolight_italic") format("svg");
+  src: url("/assets/fonts/roboto-lightitalic-webfont.woff") format("woff"), url("/assets/fonts/roboto-lightitalic-webfont.svg#robotolight_italic") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'robotomedium';
-  src: url("/public/assets/fonts/roboto-medium-webfont.woff") format("woff"), url("/public/assets/fonts/roboto-medium-webfont.svg#robotomedium") format("svg");
+  src: url("/assets/fonts/roboto-medium-webfont.woff") format("woff"), url("/assets/fonts/roboto-medium-webfont.svg#robotomedium") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'robotomedium_italic';
-  src: url("/public/assets/fonts/roboto-mediumitalic-webfont.woff") format("woff"), url("/public/assets/fonts/roboto-mediumitalic-webfont.svg#robotomedium_italic") format("svg");
+  src: url("/assets/fonts/roboto-mediumitalic-webfont.woff") format("woff"), url("/assets/fonts/roboto-mediumitalic-webfont.svg#robotomedium_italic") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'robotoregular';
-  src: url("/public/assets/fonts/roboto-regular-webfont.woff") format("woff"), url("/public/assets/fonts/roboto-regular-webfont.svg#robotoregular") format("svg");
+  src: url("/assets/fonts/roboto-regular-webfont.woff") format("woff"), url("/assets/fonts/roboto-regular-webfont.svg#robotoregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 /* Sansus */
 @font-face {
   font-family: 'sansus_webissimoregular';
-  src: url("/public/assets/fonts/sansus-webissimo-regular-webfont.woff") format("woff"), url("/public/assets/fonts/sansus-webissimo-regular-webfont.svg#sansus_webissimoregular") format("svg");
+  src: url("/assets/fonts/sansus-webissimo-regular-webfont.woff") format("woff"), url("/assets/fonts/sansus-webissimo-regular-webfont.svg#sansus_webissimoregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -124,8 +124,8 @@ ul {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("/public/assets/fonts/fontawesome-webfont.eot?v=4.6.3");
-  src: url("/public/assets/fonts/fontawesome-webfont.eot?#iefix&v=4.6.3") format("embedded-opentype"), url("/public/assets/fonts/fontawesome-webfont.woff2?v=4.6.3") format("woff2"), url("/public/assets/fonts/fontawesome-webfont.woff?v=4.6.3") format("woff"), url("/public/assets/fonts/fontawesome-webfont.ttf?v=4.6.3") format("truetype"), url("/public/assets/fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular") format("svg");
+  src: url("/assets/fonts/fontawesome-webfont.eot?v=4.6.3");
+  src: url("/assets/fonts/fontawesome-webfont.eot?#iefix&v=4.6.3") format("embedded-opentype"), url("/assets/fonts/fontawesome-webfont.woff2?v=4.6.3") format("woff2"), url("/assets/fonts/fontawesome-webfont.woff?v=4.6.3") format("woff"), url("/assets/fonts/fontawesome-webfont.ttf?v=4.6.3") format("truetype"), url("/assets/fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -2331,7 +2331,7 @@ ul {
   height: 100%; }
 
 .l-developer__bg {
-  background: url(/public/assets/img/night_bg.jpg) no-repeat top/cover;
+  background: url(/assets/img/night_bg.jpg) no-repeat top/cover;
   position: absolute;
   z-index: -100;
   top: 0;
@@ -2964,7 +2964,7 @@ ul {
           justify-content: flex-end; }
 
 .l-map__widget {
-  background: url(/public/assets/img/map.jpg) no-repeat top/cover;
+  background: url(/assets/img/map.jpg) no-repeat top/cover;
   height: 100%;
   position: absolute;
   left: 0;
@@ -3004,7 +3004,7 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: url(/public/assets/img/night_bg2.jpg) no-repeat top/cover; }
+  background: url(/assets/img/night_bg2.jpg) no-repeat top/cover; }
 
 .l-yells__title {
   margin: 20px auto;
@@ -3103,7 +3103,7 @@ ul {
   margin-bottom: 25px; }
 
 .l-welcome {
-  background: url(/public/assets/img/night_bg.jpg) no-repeat top/cover;
+  background: url(/assets/img/night_bg.jpg) no-repeat top/cover;
   height: 100vh;
   position: relative;
   display: -webkit-box;
