@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="./assets/css/foundation.css">
     <link rel="stylesheet" href="./assets/css/app.css">
     <script src="./assets/js/foundation.js" defer></script>
-    <script src="./assets/js/app.js" defer></script><!--[if lt IE 9]>
+    <script src="./assets/js/app.js" defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTr9X90RHtYA8AL0P-ho9pWtPlZEKhWTU&amp;callback=initMap" defer></script><!--[if lt IE 9]>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
   </head>
   <body>
@@ -52,6 +53,9 @@
                     </svg>
         </header>
         <div class="l-parallax__bg"></div>
+        <div class="c-stars"></div>
+        <div class="c-twinkling"></div>
+        <div class="c-clouds"></div>
         <div class="l-developer__container">
           <!--+svg('c-developer__bg',`stars1`)-->
           <svg class="c-developer__bg">
@@ -80,24 +84,45 @@
           <svg class="l-works-title__triangles"></svg>
         </div>
         <div class="c-slider">
-          <ul class="c-slider__list">
-            <li class="c-slider__item">
-              <div class="c-slider-pic"><img class="c-slider-img" src="./assets/img/work-1.png"></div>
-              <div class="c-slider__description">
-                <div class="c-slider-title c-block-title c-block-title_left">сайт школы онлайн образования</div>
-                <div class="c-slider-item__skills">HTML, CSS, JavaScript</div><a class="c-slider-btn" href="#">
-                          <svg class="c-slider-btn__icon">
-                            <use xlink:href="./assets/img/sprite.svg#link"></use>
-                          </svg>Посмотреть сайт</a>
-              </div>
-            </li>
-          </ul>
+          <div class="c-slider__view">
+            <ul class="c-slider__slides">
+              <li class="c-slides__item active"><img class="c-slider-img" src="./assets/img/work-1.png"></li>
+              <li class="c-slides__item"><img class="c-slider-img" src="./assets/img/work-2.png"></li>
+              <li class="c-slides__item"><img class="c-slider-img" src="./assets/img/work-3.png"></li>
+              <li class="c-slides__item"><img class="c-slider-img" src="./assets/img/work-4.png"></li>
+            </ul>
+          </div>
+          <div class="c-slider__description">
+            <div class="c-description__wrapper">
+              <div class="c-slider-title c-block-title c-block-title_left">сайт школы онлайн образования</div>
+              <div class="c-slider-item__skills">HTML, CSS, JavaScript</div><a class="c-slider-btn" href="#" target="_blank">
+                        <svg class="c-slider-btn__icon">
+                          <use xlink:href="./assets/img/sprite.svg#link"></use>
+                        </svg>Посмотреть сайт</a>
+            </div>
+          </div>
           <div class="c-pager">
             <ul class="c-pager__list">
-              <li class="c-pager__item"></li>
-              <li class="c-pager__item"></li>
-              <li class="c-pager__item"></li>
-              <li class="c-pager__item"></li>
+              <li class="c-pager__item active">
+                <svg class="c-pager__symbol" viewBox="0 0 10 10">
+                  <circle cx="5" cy="5" r="5"></circle>
+                </svg>
+              </li>
+              <li class="c-pager__item">
+                <svg class="c-pager__symbol" viewBox="0 0 10 10">
+                  <circle cx="5" cy="5" r="5"></circle>
+                </svg>
+              </li>
+              <li class="c-pager__item">
+                <svg class="c-pager__symbol" viewBox="0 0 10 10">
+                  <circle cx="5" cy="5" r="5"></circle>
+                </svg>
+              </li>
+              <li class="c-pager__item">
+                <svg class="c-pager__symbol" viewBox="0 0 10 10">
+                  <circle cx="5" cy="5" r="5"></circle>
+                </svg>
+              </li>
             </ul>
           </div>
                   <svg class="c-slider__button c-slider__button_prev">
