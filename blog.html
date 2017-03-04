@@ -19,6 +19,12 @@
     <!--block section1-->
     <!--block section2-->
     <!--block section3-->
+    <div class="preloader">
+      <div class="preloader__container">
+        <div class="preloader__spinner"></div>
+        <div class="preloader__value" data-unit="%">0</div>
+      </div>
+    </div>
     <div class="wrapper">
       <section class="l-section l-developer">
         <header class="l-developer__top">
@@ -47,15 +53,15 @@
                 <li class="c-menu-list__item"><a class="c-menu-list__link" href="index.html">Авторизация</a></li>
               </ul>
             </nav>
+                      <svg class="c-menu-icon">
+                        <use xlink:href="./assets/img/sprite.svg#hamburger"></use>
+                      </svg>
           </div>
-                    <svg class="c-menu-icon">
-                      <use xlink:href="./assets/img/sprite.svg#hamburger"></use>
-                    </svg>
         </header>
         <div class="l-parallax__bg"></div>
-        <div class="c-stars"></div>
+        <div class="c-stars c-stars-parallax__layer"></div>
         <div class="c-twinkling"></div>
-        <div class="c-clouds"></div>
+        <div class="c-clouds c-stars-parallax__layer"></div>
         <div class="l-developer__container">
           <!--+svg('c-developer__bg',`stars1`)-->
           <svg class="c-developer__bg">
@@ -130,7 +136,7 @@
                   <li class="c-menu-list__item"><a class="c-menu-list__link" href="index.html">Авторизация</a></li>
                 </ul>
               </nav>
-              <div class="c-socials-wrapper">
+              <div class="c-socials-wrapper c-socials-wrapper_footer">
                 <ul class="c-socials">
                   <li class="c-socials__item"><a class="c-socials__link" href="http://vk.com/id224269077" target="_blank">
                                       <svg class="c-socials__icon">
