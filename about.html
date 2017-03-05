@@ -44,20 +44,22 @@
                               </svg></a></li>
             </ul>
           </div>
-          <div class="c-menu-wrapper c-menu-wrapper_main">
-            <nav class="c-menu">
-              <ul class="c-menu-list">
-                <li class="c-menu-list__item"><a class="c-menu-list__link" href="works.html">Мои работы</a></li>
-                <li class="c-menu-list__item"><a class="c-menu-list__link" href="about.html">Обо мне</a></li>
-                <li class="c-menu-list__item"><a class="c-menu-list__link" href="blog.html">Блог</a></li>
-                <li class="c-menu-list__item"><a class="c-menu-list__link" href="index.html">Авторизация</a></li>
-              </ul>
-            </nav>
-                      <svg class="c-menu-icon">
-                        <use xlink:href="./assets/img/sprite.svg#hamburger"></use>
-                      </svg>
-          </div>
         </header>
+        <div class="c-menu-wrapper c-menu-wrapper_main">
+          <nav class="c-menu">
+            <ul class="c-menu-list">
+              <li class="c-menu-list__item"><a class="c-menu-list__link" href="works.html">Мои работы</a></li>
+              <li class="c-menu-list__item"><a class="c-menu-list__link" href="about.html">Обо мне</a></li>
+              <li class="c-menu-list__item"><a class="c-menu-list__link" href="blog.html">Блог</a></li>
+              <li class="c-menu-list__item"><a class="c-menu-list__link" href="index.html">Авторизация</a></li>
+            </ul>
+          </nav>
+          <div class="c-menu-icon">
+            <div class="c-menu-icon__line"></div>
+            <div class="c-menu-icon__line"></div>
+            <div class="c-menu-icon__line"></div>
+          </div>
+        </div>
         <div class="l-parallax__bg"></div>
         <div class="c-stars c-stars-parallax__layer"></div>
         <div class="c-twinkling"></div>
@@ -71,10 +73,10 @@
             <div class="c-user__name">Максим Шаталов</div>
             <div class="c-user__occupation">Личный сайт веб-разработчика</div>
           </div>
-        </div><a class="c-section__btn" href="#section2">
-                    <svg class="c-section__icon">
-                      <use xlink:href="./assets/img/sprite.svg#arrow_down"></use>
-                    </svg></a>
+        </div><a class="c-section__btn" data-move="next">
+                  <svg class="c-section__icon">
+                    <use xlink:href="./assets/img/sprite.svg#arrow_down"></use>
+                  </svg></a>
       </section>
       <section class="l-section l-about" id="section2">
         <div class="l-about__col l-about__col_left">
@@ -118,160 +120,156 @@
               </p>
             </div>
             <div class="c-skills">
-              <ul class="c-skills-group">
-                <li class="c-skills-group__item">
-                  <div class="c-skills-group__title">Frontend</div>
-                  <ul class="c-skills-list">
-                    <li class="c-skills-list__item">
-                      <div class="c-skill">
-                        <svg class="c-skill__circle c-skill__circle_inner" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
-                          <circle cx="20" cy="20" r="16"></circle>
-                        </svg>
-                        <svg class="c-skill__circle c-skill__circle_outer" stroke-dasharray="65 100" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
-                          <circle cx="20" cy="20" r="16"></circle>
-                        </svg>
-                        <div class="c-skill__title">HTML5</div>
-                      </div>
-                    </li>
-                    <li class="c-skills-list__item">
-                      <div class="c-skill">
-                        <svg class="c-skill__circle c-skill__circle_inner" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
-                          <circle cx="20" cy="20" r="16"></circle>
-                        </svg>
-                        <svg class="c-skill__circle c-skill__circle_outer" stroke-dasharray="65 100" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
-                          <circle cx="20" cy="20" r="16"></circle>
-                        </svg>
-                        <div class="c-skill__title">CSS3</div>
-                      </div>
-                    </li>
-                    <li class="c-skills-list__item">
-                      <div class="c-skill">
-                        <svg class="c-skill__circle c-skill__circle_inner" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
-                          <circle cx="20" cy="20" r="16"></circle>
-                        </svg>
-                        <svg class="c-skill__circle c-skill__circle_outer" stroke-dasharray="65 100" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
-                          <circle cx="20" cy="20" r="16"></circle>
-                        </svg>
-                        <div class="c-skill__title">JavaScript &amp; jQuery</div>
-                      </div>
-                    </li>
-                  </ul>
-                  <div class="c-skills-group__title">Backend</div>
-                  <ul class="c-skills-list">
-                    <li class="c-skills-list__item">
-                      <div class="c-skill">
-                        <svg class="c-skill__circle c-skill__circle_inner" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
-                          <circle cx="20" cy="20" r="16"></circle>
-                        </svg>
-                        <svg class="c-skill__circle c-skill__circle_outer" stroke-dasharray="65 100" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
-                          <circle cx="20" cy="20" r="16"></circle>
-                        </svg>
-                        <div class="c-skill__title">PHP &amp; Laravel</div>
-                      </div>
-                    </li>
-                    <li class="c-skills-list__item">
-                      <div class="c-skill">
-                        <svg class="c-skill__circle c-skill__circle_inner" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
-                          <circle cx="20" cy="20" r="16"></circle>
-                        </svg>
-                        <svg class="c-skill__circle c-skill__circle_outer" stroke-dasharray="65 100" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
-                          <circle cx="20" cy="20" r="16"></circle>
-                        </svg>
-                        <div class="c-skill__title">mySQL</div>
-                      </div>
-                    </li>
-                    <li class="c-skills-list__item">
-                      <div class="c-skill">
-                        <svg class="c-skill__circle c-skill__circle_inner" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
-                          <circle cx="20" cy="20" r="16"></circle>
-                        </svg>
-                        <svg class="c-skill__circle c-skill__circle_outer" stroke-dasharray="65 100" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
-                          <circle cx="20" cy="20" r="16"></circle>
-                        </svg>
-                        <div class="c-skill__title">Node.js &amp; npm</div>
-                      </div>
-                    </li>
-                    <li class="c-skills-list__item">
-                      <div class="c-skill">
-                        <svg class="c-skill__circle c-skill__circle_inner" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
-                          <circle cx="20" cy="20" r="16"></circle>
-                        </svg>
-                        <svg class="c-skill__circle c-skill__circle_outer" stroke-dasharray="65 100" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
-                          <circle cx="20" cy="20" r="16"></circle>
-                        </svg>
-                        <div class="c-skill__title">Mongo.db</div>
-                      </div>
-                    </li>
-                    <li class="c-skills-list__item">
-                      <div class="c-skill">
-                        <svg class="c-skill__circle c-skill__circle_inner" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
-                          <circle cx="20" cy="20" r="16"></circle>
-                        </svg>
-                        <svg class="c-skill__circle c-skill__circle_outer" stroke-dasharray="65 100" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
-                          <circle cx="20" cy="20" r="16"></circle>
-                        </svg>
-                        <div class="c-skill__title">C#</div>
-                      </div>
-                    </li>
-                    <li class="c-skills-list__item">
-                      <div class="c-skill">
-                        <svg class="c-skill__circle c-skill__circle_inner" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
-                          <circle cx="20" cy="20" r="16"></circle>
-                        </svg>
-                        <svg class="c-skill__circle c-skill__circle_outer" stroke-dasharray="65 100" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
-                          <circle cx="20" cy="20" r="16"></circle>
-                        </svg>
-                        <div class="c-skill__title">SQL Server</div>
-                      </div>
-                    </li>
-                  </ul>
-                  <div class="c-skills-group__title">Workflow</div>
-                  <ul class="c-skills-list">
-                    <li class="c-skills-list__item">
-                      <div class="c-skill">
-                        <svg class="c-skill__circle c-skill__circle_inner" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
-                          <circle cx="20" cy="20" r="16"></circle>
-                        </svg>
-                        <svg class="c-skill__circle c-skill__circle_outer" stroke-dasharray="65 100" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
-                          <circle cx="20" cy="20" r="16"></circle>
-                        </svg>
-                        <div class="c-skill__title">Git</div>
-                      </div>
-                    </li>
-                    <li class="c-skills-list__item">
-                      <div class="c-skill">
-                        <svg class="c-skill__circle c-skill__circle_inner" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
-                          <circle cx="20" cy="20" r="16"></circle>
-                        </svg>
-                        <svg class="c-skill__circle c-skill__circle_outer" stroke-dasharray="65 100" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
-                          <circle cx="20" cy="20" r="16"></circle>
-                        </svg>
-                        <div class="c-skill__title">Gulp</div>
-                      </div>
-                    </li>
-                    <li class="c-skills-list__item">
-                      <div class="c-skill">
-                        <svg class="c-skill__circle c-skill__circle_inner" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
-                          <circle cx="20" cy="20" r="16"></circle>
-                        </svg>
-                        <svg class="c-skill__circle c-skill__circle_outer" stroke-dasharray="65 100" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
-                          <circle cx="20" cy="20" r="16"></circle>
-                        </svg>
-                        <div class="c-skill__title">Webpack</div>
-                      </div>
-                    </li>
-                    <li class="c-skills-list__item">
-                      <div class="c-skill">
-                        <svg class="c-skill__circle c-skill__circle_inner" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
-                          <circle cx="20" cy="20" r="16"></circle>
-                        </svg>
-                        <svg class="c-skill__circle c-skill__circle_outer" stroke-dasharray="65 100" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
-                          <circle cx="20" cy="20" r="16"></circle>
-                        </svg>
-                        <div class="c-skill__title">Artisan</div>
-                      </div>
-                    </li>
-                  </ul>
+              <div class="c-skills-group__title">Frontend</div>
+              <ul class="c-skills-list">
+                <li class="c-skills-list__item">
+                  <div class="c-skill">
+                    <svg class="c-skill__circle c-skill__circle_inner" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
+                      <circle cx="20" cy="20" r="16"></circle>
+                    </svg>
+                    <svg class="c-skill__circle c-skill__circle_outer" stroke-dasharray="65 100" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
+                      <circle cx="20" cy="20" r="16"></circle>
+                    </svg>
+                    <div class="c-skill__title">HTML5</div>
+                  </div>
+                </li>
+                <li class="c-skills-list__item">
+                  <div class="c-skill">
+                    <svg class="c-skill__circle c-skill__circle_inner" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
+                      <circle cx="20" cy="20" r="16"></circle>
+                    </svg>
+                    <svg class="c-skill__circle c-skill__circle_outer" stroke-dasharray="65 100" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
+                      <circle cx="20" cy="20" r="16"></circle>
+                    </svg>
+                    <div class="c-skill__title">CSS3</div>
+                  </div>
+                </li>
+                <li class="c-skills-list__item">
+                  <div class="c-skill">
+                    <svg class="c-skill__circle c-skill__circle_inner" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
+                      <circle cx="20" cy="20" r="16"></circle>
+                    </svg>
+                    <svg class="c-skill__circle c-skill__circle_outer" stroke-dasharray="65 100" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
+                      <circle cx="20" cy="20" r="16"></circle>
+                    </svg>
+                    <div class="c-skill__title">JavaScript &amp; jQuery</div>
+                  </div>
+                </li>
+              </ul>
+              <div class="c-skills-group__title">Backend</div>
+              <ul class="c-skills-list">
+                <li class="c-skills-list__item">
+                  <div class="c-skill">
+                    <svg class="c-skill__circle c-skill__circle_inner" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
+                      <circle cx="20" cy="20" r="16"></circle>
+                    </svg>
+                    <svg class="c-skill__circle c-skill__circle_outer" stroke-dasharray="65 100" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
+                      <circle cx="20" cy="20" r="16"></circle>
+                    </svg>
+                    <div class="c-skill__title">PHP &amp; Laravel</div>
+                  </div>
+                </li>
+                <li class="c-skills-list__item">
+                  <div class="c-skill">
+                    <svg class="c-skill__circle c-skill__circle_inner" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
+                      <circle cx="20" cy="20" r="16"></circle>
+                    </svg>
+                    <svg class="c-skill__circle c-skill__circle_outer" stroke-dasharray="65 100" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
+                      <circle cx="20" cy="20" r="16"></circle>
+                    </svg>
+                    <div class="c-skill__title">mySQL</div>
+                  </div>
+                </li>
+                <li class="c-skills-list__item">
+                  <div class="c-skill">
+                    <svg class="c-skill__circle c-skill__circle_inner" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
+                      <circle cx="20" cy="20" r="16"></circle>
+                    </svg>
+                    <svg class="c-skill__circle c-skill__circle_outer" stroke-dasharray="65 100" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
+                      <circle cx="20" cy="20" r="16"></circle>
+                    </svg>
+                    <div class="c-skill__title">Node.js &amp; npm</div>
+                  </div>
+                </li>
+                <li class="c-skills-list__item">
+                  <div class="c-skill">
+                    <svg class="c-skill__circle c-skill__circle_inner" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
+                      <circle cx="20" cy="20" r="16"></circle>
+                    </svg>
+                    <svg class="c-skill__circle c-skill__circle_outer" stroke-dasharray="65 100" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
+                      <circle cx="20" cy="20" r="16"></circle>
+                    </svg>
+                    <div class="c-skill__title">Mongo.db</div>
+                  </div>
+                </li>
+                <li class="c-skills-list__item">
+                  <div class="c-skill">
+                    <svg class="c-skill__circle c-skill__circle_inner" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
+                      <circle cx="20" cy="20" r="16"></circle>
+                    </svg>
+                    <svg class="c-skill__circle c-skill__circle_outer" stroke-dasharray="65 100" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
+                      <circle cx="20" cy="20" r="16"></circle>
+                    </svg>
+                    <div class="c-skill__title">C#</div>
+                  </div>
+                </li>
+                <li class="c-skills-list__item">
+                  <div class="c-skill">
+                    <svg class="c-skill__circle c-skill__circle_inner" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
+                      <circle cx="20" cy="20" r="16"></circle>
+                    </svg>
+                    <svg class="c-skill__circle c-skill__circle_outer" stroke-dasharray="65 100" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
+                      <circle cx="20" cy="20" r="16"></circle>
+                    </svg>
+                    <div class="c-skill__title">SQL Server</div>
+                  </div>
+                </li>
+              </ul>
+              <div class="c-skills-group__title">Workflow</div>
+              <ul class="c-skills-list">
+                <li class="c-skills-list__item">
+                  <div class="c-skill">
+                    <svg class="c-skill__circle c-skill__circle_inner" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
+                      <circle cx="20" cy="20" r="16"></circle>
+                    </svg>
+                    <svg class="c-skill__circle c-skill__circle_outer" stroke-dasharray="65 100" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
+                      <circle cx="20" cy="20" r="16"></circle>
+                    </svg>
+                    <div class="c-skill__title">Git</div>
+                  </div>
+                </li>
+                <li class="c-skills-list__item">
+                  <div class="c-skill">
+                    <svg class="c-skill__circle c-skill__circle_inner" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
+                      <circle cx="20" cy="20" r="16"></circle>
+                    </svg>
+                    <svg class="c-skill__circle c-skill__circle_outer" stroke-dasharray="65 100" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
+                      <circle cx="20" cy="20" r="16"></circle>
+                    </svg>
+                    <div class="c-skill__title">Gulp</div>
+                  </div>
+                </li>
+                <li class="c-skills-list__item">
+                  <div class="c-skill">
+                    <svg class="c-skill__circle c-skill__circle_inner" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
+                      <circle cx="20" cy="20" r="16"></circle>
+                    </svg>
+                    <svg class="c-skill__circle c-skill__circle_outer" stroke-dasharray="65 100" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
+                      <circle cx="20" cy="20" r="16"></circle>
+                    </svg>
+                    <div class="c-skill__title">Webpack</div>
+                  </div>
+                </li>
+                <li class="c-skills-list__item">
+                  <div class="c-skill">
+                    <svg class="c-skill__circle c-skill__circle_inner" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
+                      <circle cx="20" cy="20" r="16"></circle>
+                    </svg>
+                    <svg class="c-skill__circle c-skill__circle_outer" stroke-dasharray="65 100" viewBox="0 0 40 40" preserveAspectRatio="none" stroke-alignment="inner">
+                      <circle cx="20" cy="20" r="16"></circle>
+                    </svg>
+                    <div class="c-skill__title">Artisan</div>
+                  </div>
                 </li>
               </ul>
             </div>
@@ -284,21 +282,21 @@
           <div class="c-contacts-list-wrapper c-contacts-list-wrapper_map">
             <ul class="c-contacts-list">
               <li class="c-contacts__item"><a class="c-contacts__link" href="skype:maxim.shatalov04" target="_blank">
-                            <svg class="c-contacts__icon">
-                              <use xlink:href="./assets/img/sprite.svg#skype_n"></use>
-                            </svg>maxim.shatalov04</a></li>
+                          <svg class="c-contacts__icon">
+                            <use xlink:href="./assets/img/sprite.svg#skype_n"></use>
+                          </svg>maxim.shatalov04</a></li>
               <li class="c-contacts__item"><a class="c-contacts__link" href="mailto:shatalov04@gmail.com" target="_blank">
-                            <svg class="c-contacts__icon">
-                              <use xlink:href="./assets/img/sprite.svg#envelope_n"></use>
-                            </svg>shatalov04@gmail.com</a></li>
+                          <svg class="c-contacts__icon">
+                            <use xlink:href="./assets/img/sprite.svg#envelope_n"></use>
+                          </svg>shatalov04@gmail.com</a></li>
               <li class="c-contacts__item"><a class="c-contacts__link" href="tel:+79162142371" target="_blank">
-                            <svg class="c-contacts__icon">
-                              <use xlink:href="./assets/img/sprite.svg#phone_n"></use>
-                            </svg>+7 916 214 23 71</a></li>
+                          <svg class="c-contacts__icon">
+                            <use xlink:href="./assets/img/sprite.svg#phone_n"></use>
+                          </svg>+7 916 214 23 71</a></li>
               <li class="c-contacts__item"><a class="c-contacts__link" href="https://yandex.ru/maps/10740/mytischi/?ll=37.738442%2C55.901499&amp;z=17&amp;mode=whatshere&amp;whatshere%5Bpoint%5D=37.738507%2C55.900830&amp;whatshere%5Bzoom%5D=17" target="_blank">
-                            <svg class="c-contacts__icon">
-                              <use xlink:href="./assets/img/sprite.svg#map_n"></use>
-                            </svg>г.Мытищи, Октябрьский проспект, 6А</a></li>
+                          <svg class="c-contacts__icon">
+                            <use xlink:href="./assets/img/sprite.svg#map_n"></use>
+                          </svg>г.Мытищи, Октябрьский проспект, 6А</a></li>
             </ul>
           </div>
         </div>

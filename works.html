@@ -44,20 +44,22 @@
                               </svg></a></li>
             </ul>
           </div>
-          <div class="c-menu-wrapper c-menu-wrapper_main">
-            <nav class="c-menu">
-              <ul class="c-menu-list">
-                <li class="c-menu-list__item"><a class="c-menu-list__link" href="works.html">Мои работы</a></li>
-                <li class="c-menu-list__item"><a class="c-menu-list__link" href="about.html">Обо мне</a></li>
-                <li class="c-menu-list__item"><a class="c-menu-list__link" href="blog.html">Блог</a></li>
-                <li class="c-menu-list__item"><a class="c-menu-list__link" href="index.html">Авторизация</a></li>
-              </ul>
-            </nav>
-                      <svg class="c-menu-icon">
-                        <use xlink:href="./assets/img/sprite.svg#hamburger"></use>
-                      </svg>
-          </div>
         </header>
+        <div class="c-menu-wrapper c-menu-wrapper_main">
+          <nav class="c-menu">
+            <ul class="c-menu-list">
+              <li class="c-menu-list__item"><a class="c-menu-list__link" href="works.html">Мои работы</a></li>
+              <li class="c-menu-list__item"><a class="c-menu-list__link" href="about.html">Обо мне</a></li>
+              <li class="c-menu-list__item"><a class="c-menu-list__link" href="blog.html">Блог</a></li>
+              <li class="c-menu-list__item"><a class="c-menu-list__link" href="index.html">Авторизация</a></li>
+            </ul>
+          </nav>
+          <div class="c-menu-icon">
+            <div class="c-menu-icon__line"></div>
+            <div class="c-menu-icon__line"></div>
+            <div class="c-menu-icon__line"></div>
+          </div>
+        </div>
         <div class="l-parallax__bg"></div>
         <div class="c-stars c-stars-parallax__layer"></div>
         <div class="c-twinkling"></div>
@@ -71,10 +73,10 @@
             <div class="c-user__name">Максим Шаталов</div>
             <div class="c-user__occupation">Личный сайт веб-разработчика</div>
           </div>
-        </div><a class="c-section__btn" href="#section2">
-                    <svg class="c-section__icon">
-                      <use xlink:href="./assets/img/sprite.svg#arrow_down"></use>
-                    </svg></a>
+        </div><a class="c-section__btn" data-move="next">
+                  <svg class="c-section__icon">
+                    <use xlink:href="./assets/img/sprite.svg#arrow_down"></use>
+                  </svg></a>
       </section>
       <section class="l-section l-works" id="section2">
         <div class="l-works__title">
@@ -91,12 +93,7 @@
         </div>
         <div class="c-slider">
           <div class="c-slider__view">
-            <ul class="c-slider__slides">
-              <li class="c-slides__item active"><img class="c-slider-img" src="./assets/img/work-1.png"></li>
-              <li class="c-slides__item"><img class="c-slider-img" src="./assets/img/work-2.png"></li>
-              <li class="c-slides__item"><img class="c-slider-img" src="./assets/img/work-3.png"></li>
-              <li class="c-slides__item"><img class="c-slider-img" src="./assets/img/work-4.png"></li>
-            </ul>
+            <ul class="c-slider__slides"></ul>
           </div>
           <div class="c-slider__description">
             <div class="c-description__wrapper">
@@ -108,28 +105,7 @@
             </div>
           </div>
           <div class="c-pager">
-            <ul class="c-pager__list">
-              <li class="c-pager__item active">
-                <svg class="c-pager__symbol" viewBox="0 0 10 10">
-                  <circle cx="5" cy="5" r="5"></circle>
-                </svg>
-              </li>
-              <li class="c-pager__item">
-                <svg class="c-pager__symbol" viewBox="0 0 10 10">
-                  <circle cx="5" cy="5" r="5"></circle>
-                </svg>
-              </li>
-              <li class="c-pager__item">
-                <svg class="c-pager__symbol" viewBox="0 0 10 10">
-                  <circle cx="5" cy="5" r="5"></circle>
-                </svg>
-              </li>
-              <li class="c-pager__item">
-                <svg class="c-pager__symbol" viewBox="0 0 10 10">
-                  <circle cx="5" cy="5" r="5"></circle>
-                </svg>
-              </li>
-            </ul>
+            <ul class="c-pager__list"></ul>
           </div>
                   <svg class="c-slider__button c-slider__button_prev">
                     <use xlink:href="./assets/img/sprite.svg#arrow_down"></use>
@@ -177,7 +153,7 @@
             <button class="c-form__button c-form__button_highlighted" type="submit" form="yells-form">Отправить</button>
             <button class="c-form__button">Очистить</button>
           </div>
-        </div><a class="c-section__btn c-section__btn_prev" href="#section2">
+        </div><a class="c-section__btn c-section__btn_prev" data-move="top">
                   <svg class="c-section__icon">
                     <use xlink:href="./assets/img/sprite.svg#arrow_down"></use>
                   </svg></a>
